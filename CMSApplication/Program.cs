@@ -13,7 +13,8 @@ namespace CMSApplication
     public   static void Main(string[] args)
     {
 
-      Console.WriteLine("adding new line")
+      Console.WriteLine("adding new line");
+
       studlist.Add(new Student { Id = 101, Name = "Kirankumar"});
       studlist.Add(new Student { Id = 102, Name = "Sureshraine" });
       
