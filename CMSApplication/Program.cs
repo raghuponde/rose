@@ -13,12 +13,13 @@ namespace CMSApplication
     public   static void Main(string[] args)
     {
 
-      Console.WriteLine("adding new line");
-
-      studlist.Add(new Student { Id = 101, Name = "Kirankumar"});
-      studlist.Add(new Student { Id = 102, Name = "Sureshraine" });
+    
+    Console.WriteLine("Hellow    ");
+      studlist.Add(new Student { Id = 101, Name = "Kirankumarbhai"});
+     
+       studlist.Add(new Student { Id = 103, Name = "mahesh raine" });
       
-
+      
       foreach (Student st in studlist)
       {
         Console.WriteLine("{0}--{1}", st.Id, st.Name);
