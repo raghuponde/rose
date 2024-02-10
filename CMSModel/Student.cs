@@ -1,4 +1,4 @@
-namespace CMSApplication
+namespace CMSModel
 {
     public class Student
     {
@@ -6,5 +6,4 @@ namespace CMSApplication
 
         public string Name {set;get;}
     }    
-    
 }
