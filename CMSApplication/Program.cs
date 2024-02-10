@@ -10,6 +10,8 @@ namespace CMSApplication
     static List<Student> studlist = new List<Student>();
     public   static void Main(string[] args)
     {
+
+      string message="Hello";
       studlist.Add(new Student { Id = 101, Name = "Kirankumar"});
       studlist.Add(new Student { Id = 102, Name = "Suresh" });
       studlist.Add(new Student { Id = 103, Name = "Mohan" });
