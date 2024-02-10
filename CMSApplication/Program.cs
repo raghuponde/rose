@@ -12,7 +12,7 @@ namespace CMSApplication
     {
       studlist.Add(new Student { Id = 101, Name = "Kirankumar"});
       studlist.Add(new Student { Id = 102, Name = "Suresh" });
-      studlist.Add(new Student { Id = 101, Name = "Mohan" });
+      studlist.Add(new Student { Id = 103, Name = "Mohan" });
 
 
       foreach (Student st in studlist)
