@@ -7,7 +7,7 @@ namespace CMSApplication
 
   public class Program
   {
-    static List<Student> studlist = new List<Student>();
+    static List<Student> studlist  = new List<Student>();
 
     
     public   static void Main(string[] args)
